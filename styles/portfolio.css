@@ -88,6 +88,8 @@ main {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+
+/* About Me Section */
 .about-me {
 	background: #fff8f3;
 	border-radius: 10px;
@@ -108,25 +110,73 @@ main {
 	font-weight: 700;
 	font-size: 20px;
 }
+
+/* What I do Section */
 .skills-container {
 	display: flex;
-    gap: 24px;
-    margin-top: 50px;
+	gap: 24px;
+	margin-top: 50px;
+	margin-bottom: 130px;
 }
 .skill-name {
 	background: #ffffff;
 	box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 	border-radius: 5px;
-    padding: 30px;
+	padding: 30px;
 }
-.skill-title{
-    color: #181818;
-    font-weight: 700;
-    font-size: 20px;
+.skill-title {
+	color: #181818;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.skill-description {
+	color: #757575;
+	line-height: 28px;
+}
+
+/* Resume Details */
+.resume-section {
+	display: flex;
+    margin-top: 130px;
+    gap: 24px;
+}
+hr.line{
     margin-top: 30px;
+    border-top: 1px solid #D1D1D1;
+}
+.resume-title {
+	color: #474747;
+	font-weight: 700;
+	font-size: 30px;
+    margin-bottom: 30px;
+}
+.education-title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 34px;
+    margin-bottom: 10px;
+}
+.education-ins {
+	font-weight: 600;
+	font-size: 20px;
+	color: #757575;
     margin-bottom: 20px;
 }
-.skill-description{
-    color: #757575;
+.education-description {
+	color: #757575;
     line-height: 28px;
+}
+.education{
+    margin-bottom:px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+.education p{
+    text-align: left;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
